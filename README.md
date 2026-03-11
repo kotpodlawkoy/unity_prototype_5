@@ -1,3 +1,33 @@
+# Language [ENG](#description)/[RUS](#описание)
+
+# Description
+**This project corresponds to Mission 5 of the [Unity Junior Programmer roadmap](https://learn.unity.com/pathway/junior-programmer) on Unity Learn.**
+
+# Technologies used
+* Unity Editor v6000.2.11f1
+* Vim 9.1 with dependencies:
+  * OmniSharp LSP server
+  * Unity tool [kotpodlawkoy sln generator](https://github.com/kotpodlawkoy/kotpodlawkoy.sln.csproj.generator)
+ 
+# Link to web build
+[play](https://play.unity.com/en/games/7c7c42c3-f292-4d0c-a95f-6549a5341d17/prototype5) (**Press Esc to exit to the main menu**)
+
+# Work done
+In the context of this project, the following was implemented:
+* A prototype of a **side-view** 3D game where you have to hold down the mouse button and “cut” skulls (like in Fruit Ninja), which involved working with:
+  * Unity UI
+  * Event handling (from interface objects)
+  * Difficulty mechanics
+  * Full architecture in the form of a finite state machine with a main menu, game over, and pause
+  * Background music volume control
+  * Work with Trail Renderer to render a trail during “cutting”
+
+* Prototype of a **top-down** 3D game **(path: ./Challenge 5/)**, where you have to smash anything on the board except skulls
+  * Timer implemented using a coroutine
+  * UI implemented with player score points
+
+The project can be compiled in Unity
+
 # Описание
 **Проект соответствует 5-ой миссии [Unity Junior Programmer roadmap](https://learn.unity.com/pathway/junior-programmer) на Unity Learn**
 
